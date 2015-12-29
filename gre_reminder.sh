@@ -9,6 +9,7 @@ if [ $myvar -ne 0 ]
 			day_count=$(($day_count+$year_day))
 	else
 			day_count=$(($day_count-361))
+#It's so because i wrote this on Dec 28, 2015
 fi
 echo ITS YOUR DAY
 banner $day_count
